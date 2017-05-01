@@ -1,0 +1,103 @@
+
+body { position:relative; padding:0 0 0 0px; 
+
+}
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+    
+}
+
+body { 
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-bottom: 0px;
+ margin-left: 0px;
+ max-width:1000px;
+ background:#000000;
+ display: table-cell;
+ 
+}
+
+
+#header {
+    position:relative;
+    margin-top:10px;
+    margin-bottom:10px;
+    float:left;
+
+
+}
+
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+a:link {
+    text-decoration: none;
+    color: gray;
+    }
+    
+#content {  
+position:relative;
+margin-top:10px;
+margin-bottom:10px;
+float:left;
+
+
+left:9.5%;
+    border:2px solid #8e8e8e;
+    border-radius:3px;
+      overflow: auto;
+    width:80%;
+font-family: 'Optima', serif;
+
+letter-spacing: 0.1625em;
+    padding-top:5px;
+    padding-bottom:5apx;
+    height:auto;
+	line-height:1;
+    text-align:center;
+    background: #ece9e9;
+    
+    }
+#footer {
+text-decoration:none; 
+font-family:arial;
+font-size:9px;
+
+}
+
+
+A:link {
+ COLOR: #99a0bb/*The color of the link*/
+}
+A:visited {
+ COLOR: #d1d7e3/*The color of the visited link*/
+}
+A:hover {
+ COLOR: #b2bbcf/*The color of the mouseover or 'hover' link*/
+}
+BODY { COLOR: #747474 /*The color of all the other text within the body of the page*/
+}
+
+head { 
+

@@ -1,0 +1,169 @@
+body { position:relative; padding:0 0 0 0px; 
+
+}
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;  
+}
+
+body { 
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    max-width:1000px;
+    display: table-cell;
+}
+
+
+header {
+    position: relative; 
+    margin: auto; 
+    text-align: center;
+    float:center;
+    
+    font-family: 'Optima', serif;
+    background: #f0d0e0;
+
+    letter-spacing: 0.0625em;
+        padding-top:0px;
+        padding-bottom:0px;
+        height:auto;
+        line-height:1.2;
+       
+}
+
+#bar A:link{ color: #99cccc;}
+
+
+#bar {
+    position: relative; 
+    margin: auto; 
+    text-align: center;
+    float:center;
+    background: #f0d0e0;
+    font-family: 'Times', serif;
+    letter-spacing: 0.0625em;
+    padding-top:0px;
+    padding-bottom:0px;
+    height:auto;
+    line-height:1.2;
+    
+   /* background: #ece9e9; */
+    overflow: auto;
+       
+}
+
+/*  SECTIONS  */
+.section {
+    background: #f0d0e0;
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+    
+	display: block;
+	float:left;
+	margin: 1% 0 1% 0%;
+}
+
+
+.col:first-child { margin-left: 0; }
+.col:second-child{margin-left: 15%;}
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF TWO  */
+.span_2_of_2 {
+	width: 100%;
+}
+.span_1_of_2 {
+	width: 50%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.span_2_of_2, .span_1_of_2 { width: 100%; }
+}
+
+
+#bg img {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 100%;
+    min-height: 100%;
+    
+}
+
+a:link {
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+    }
+    
+#content {  
+    position:relative;
+    margin-top:5px;
+    margin-bottom:5px;
+    float:left;
+
+    left:9.5%;
+        border:2px solid #8e8e8e;
+        border-radius:3px;
+        overflow: auto;
+        width:80%;
+    font-family: 'Optima', serif;
+
+    letter-spacing: 0.1625em;
+        padding-top:5px;
+        padding-bottom:5px;
+        height:auto;
+        line-height:1;
+        text-align:center;
+        background: #ece9e9;
+    
+}
+
+#footer {
+   
+    text-decoration:none; 
+    font-family:arial;
+    font-size:9px;
+    text-align: left;
+}
+
+
+A:link {
+ COLOR: #99a0bb/*The color of the link*/
+}
+A:visited {
+ COLOR:  #99cccc;}
+/*The color of the visited link*/
+}
+#bar A:hover {
+ COLOR: #b2bbcf/*The color of the mouseover or 'hover' link*/
+}
+BODY { COLOR: #747474 /*The color of all the other text within the body of the page*/
+}
